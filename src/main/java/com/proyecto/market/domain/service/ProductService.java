@@ -17,9 +17,22 @@ public class ProductService {
     public List<Product> getAll(){
         return productRepository.getAll();
     }
+
+
+
+
+
     public Optional<Product> getProduct (int producId){
         return productRepository.getProduct(producId);
     }
+
+
+
+
+
+
+
+
     public  Optional<List<Product>> getByCategory(int categoryId){
         return productRepository.getByCategory(categoryId);
     }
